@@ -17,6 +17,3 @@ RUN \
 
 ENTRYPOINT ["/root/steamcmd/steamcmd.sh"]
 
-# Expose ports.
-EXPOSE 27015
-EXPOSE 27016
