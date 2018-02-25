@@ -1,8 +1,8 @@
 FROM ubuntu:14.04
 
 RUN \
-  apt-get update && \
-  apt-get install -y lib32gcc1 curl lib32tinfo5 lib32stdc++6 && \
+  apt-get update ; \
+  apt-get install -y gdb lib32gcc1 curl lib32tinfo5 lib32stdc++6 ; \
   rm -rf /var/lib/apt/lists/*
 
 RUN \
